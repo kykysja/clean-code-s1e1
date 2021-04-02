@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.about .more-inf {
+.about .about__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -43,7 +43,7 @@ body {
   margin-bottom: 20px;
 }
 
-.task {
+.task-name {
   width: 56%;
   display: inline-block;
 }
@@ -146,17 +146,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+li > button.button_delete:hover {
   color: #CF2323;
 }
 
-button.delete img {
+button.button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.button_delete img:hover {
   transform: rotateZ(0);
 }
 
