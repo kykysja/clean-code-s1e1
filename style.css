@@ -146,17 +146,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.button_delete:hover {
+li > button.button_del:hover {
   color: #CF2323;
 }
 
-button.button_delete img {
+button.button_del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.button_delete img:hover {
+button.button_del img:hover {
   transform: rotateZ(0);
 }
 
