@@ -34,6 +34,15 @@ body {
   margin: 0 auto 0;
 }
 
+.add-item {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.add-item__title {
+  margin-bottom: 20px;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -98,16 +107,16 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+/*label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
-}
+}*/
 
 input#new-task {
   width: 306px;
 }
 
-p > button:hover {
+.add-item > button:hover {
   color: #0FC57C;
 }
 
